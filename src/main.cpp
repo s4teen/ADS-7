@@ -49,7 +49,6 @@ int main() {
 
   std::cout << train.getLength() << std::endl;
   std::cout << train.getOpCount() << std::endl;
+  file.close();
   return 0;
-    file.close();
-    return 0;
 }
