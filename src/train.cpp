@@ -45,6 +45,8 @@ int Train::getLength() {
                 return steps;
             }
             steps = 0;
+        } else if (steps > 0 && current == first) {
+            return steps;
         }
     }
 }
